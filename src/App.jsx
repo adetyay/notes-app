@@ -43,9 +43,9 @@ export default function App() {
     
     React.useEffect(() => {
         if (currentNote) {
-            setTempNoteText(currentNote.body)
+          setTempNoteText(currentNote.body)
         }
-    }, [currentNote])
+      }, [currentNote])
     
     React.useEffect(() => {
         const timeoutId = setTimeout(() => {
